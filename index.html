@@ -14,6 +14,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        penguin: '#FFFBF0',
+                        jacketprice: '#FABE4C',
                     }
                 }
             }
@@ -22,10 +24,66 @@
 </head>
 
 <body>
-    <h1 class="text-5xl uppercase font-bold">
-        <span class="text-yellow-400">Be the Penguins</span>
-        <span>of Winter</span>
-    </h1>
+    <header class="bg-penguin pb-32 pt-12">
+        <section class="container mx-auto sm:flex items-center justify-around">
+            <div class="space-y-4">
+                <h1 class="text-2xl sm:text-5xl uppercase font-bold">
+                    <span class="text-yellow-400">Be the Penguins</span>
+                    <br>
+                    <span>of Winter</span>
+                </h1>
+                <p>Lorem ipsum dolor, sit amet</p>
+                <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>Buy Now</button>
+            </div>
+            <div class="pt-8 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="./images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- woman jacket -->
+    <main>
+        <section>
+            <div>
+                <!-- component -->
+                <!-- component -->
+                <div>
+                    <div class="px-10 py-20 bg-gray-100 grid gap-10 lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2">
+
+
+
+                        <div
+                            class="max-w-xs rounded-md overflow-hidden shadow-lg hover:scale-105 transition duration-500 cursor-pointer">
+                            <div>
+                                <img src="https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/g1jzwrwrlfim5wux_1623141909.jpeg"
+                                    alt="" />
+                            </div>
+                            <div class="py-4 px-4 bg-white">
+                                <h3 class="text-md font-semibold text-gray-600">Apple MacBook Pro M1 13.3&quot; Silver
+                                    16GB/512GB (MYDC2FN/A-16GB)</h3>
+                                <div class="flex">
+                                    <p class="mt-4 text-lg font-thin">$ 2400</p>
+                                    <span
+                                        class="flex items-center justify-center mt-4 w-full bg-yellow-400 hover:bg-yellow-500 py-1 rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                        </svg>
+                                        <button class="font-semibold text-gray-800">Add to Basket</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
